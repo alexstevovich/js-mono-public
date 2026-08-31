@@ -1,0 +1,31 @@
+{
+  "name": "@alexstevovich/warpzone",
+  "version": "2.0.1",
+  "description": "A compact facade for common filesystem operations",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --test"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest"
+  }
+}

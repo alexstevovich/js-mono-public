@@ -1,0 +1,38 @@
+{
+  "name": "@alexstevovich/filezord-cli",
+  "version": "1.0.0",
+  "description": "Generate a Filezord document from a working directory",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.js",
+  "bin": {
+    "filezord": "./src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --test"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@alexstevovich/filezord": "^1.0.0",
+    "minimatch": "^10.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "lydio-html",
+  "version": "0.0.0",
+  "description": "Reserved package name; use @lydio/html instead",
+  "private": true,
+  "type": "module",
+  "files": [],
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "ISC",
+  "keywords": [
+    "lydio",
+    "reserved"
+  ]
+}

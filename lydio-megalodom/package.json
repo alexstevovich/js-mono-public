@@ -1,0 +1,35 @@
+{
+  "name": "@alexstevovich/lydio-megalodom",
+  "version": "5.0.0",
+  "description": "Complete HTML document composition for Lydio",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@alexstevovich/lydio": "^5.0.0",
+    "@alexstevovich/lydio-meta-tags": "^5.0.0",
+    "@alexstevovich/lydio-schema": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest"
+  }
+}

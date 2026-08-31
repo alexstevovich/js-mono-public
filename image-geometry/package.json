@@ -1,0 +1,39 @@
+{
+  "name": "@alexstevovich/image-geometry",
+  "version": "1.0.0",
+  "description": "Read raster and SVG geometry from files and directories",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./image": "./src/image.js",
+    "./raster": "./src/raster.js",
+    "./svg": "./src/svg.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --test"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "image-size": "^2.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest"
+  }
+}

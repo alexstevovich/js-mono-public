@@ -1,0 +1,34 @@
+{
+  "name": "@alexstevovich/lydio-meta-tags",
+  "version": "5.0.0",
+  "description": "Metadata components for Lydio HTML documents",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@alexstevovich/lydio": "^5.0.0",
+    "@alexstevovich/lydio-html": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest"
+  }
+}

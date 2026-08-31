@@ -1,0 +1,34 @@
+{
+  "name": "@alexstevovich/lydio",
+  "version": "5.0.0",
+  "description": "Beautiful, modular, programmatic HTML",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --test",
+    "poshify": "poshify",
+    "build": "npm run poshify && npm run format && npm run lint:fix && npm run lint"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest",
+    "poshify": "latest"
+  }
+}

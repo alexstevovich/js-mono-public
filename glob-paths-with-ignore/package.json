@@ -1,0 +1,35 @@
+{
+  "name": "@alexstevovich/glob-paths-with-ignore",
+  "version": "1.0.0",
+  "description": "Match filesystem paths with globs and hierarchical ignore rules",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --test"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "minimatch": "^10.0.1",
+    "micromatch": "^4.0.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest"
+  }
+}

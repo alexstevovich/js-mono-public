@@ -1,0 +1,35 @@
+{
+  "name": "@alexstevovich/dirdraw-cli",
+  "version": "1.0.0",
+  "description": "Command-line interface for Dirdraw",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "dirdraw": "./src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@alexstevovich/dirdraw": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@alexstevovich/shipmast-cli",
+  "version": "1.0.0",
+  "description": "Apply or remove Shipmast headers from files selected by globs",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.js",
+  "bin": {
+    "shipmast": "./src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --test"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@alexstevovich/shipmast": "^1.0.0",
+    "glob": "^11.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest"
+  }
+}
